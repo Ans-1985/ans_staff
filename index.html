@@ -332,8 +332,10 @@
   .appendix-list li::before{content:"📎"; font-size:1.1rem;}
 
   footer.site{
-    text-align:center; padding:36px 20px; color:var(--muted); font-size:0.88rem;
+    text-align:center !important; padding:36px 20px; color:var(--muted); font-size:0.88rem;
+    width:100%; display:block; box-sizing:border-box;
   }
+  footer.site p{text-align:center !important; margin:0 auto;}
 
   @media (max-width:900px){
     [id]{scroll-margin-top:calc(var(--sticky-h, 130px) + 16px);}
@@ -588,7 +590,7 @@
 	  <a href="#خزائـن-الطلبـة">خزائـن الطلبـة</a>
 	  <a href="#المفقــودات">المفقــودات</a>
 	  <a href="#تعليمات-عامة-للمحافظة-على-سير-النظام-في-المدرسة">تعليمات عامّة للمحافظة على سير النظام في المدرسة</a>
-	  <a href="#appendices">المرفقات:</a>
+	  
 	  <a href="#appendices">قائمة الملحقات</a>
 <a href="#appendix-conduct-charter">ملحق 1: ميثاق السلوك</a>
 <a href="#appendix-discipline-instructions">ملحق 2: تعليمات الانضباط المدرسيّ</a>
@@ -691,7 +693,7 @@
           <li><a href="#خزائـن-الطلبـة" style="color:inherit; text-decoration:none;">خزائـن الطلبـة</a></li>
           <li><a href="#المفقــودات" style="color:inherit; text-decoration:none;">المفقــودات</a></li>
           <li><a href="#تعليمات-عامة-للمحافظة-على-سير-النظام-في-المدرسة" style="color:inherit; text-decoration:none;">تعليمات عامّة للمحافظة على سير النظام في المدرسة</a></li>
-          <li><a href="#appendices" style="color:inherit; text-decoration:none;">المرفقات:</a></li>
+          
           <li><a href="#appendices">قائمة الملحقات</a></li>
 <li><a href="#appendix-conduct-charter">ملحق 1: ميثاق السلوك</a></li>
 <li><a href="#appendix-discipline-instructions">ملحق 2: تعليمات الانضباط المدرسيّ</a></li>
@@ -1680,6 +1682,17 @@
 </ol>
 </article>
 </section>
+<section class="part" id="appendices">
+<div class="part-head"><h2>قائمة الملحقات</h2></div>
+<article class="sec">
+<ul class="appendix-list">
+<li><a href="#appendix-conduct-charter" style="color:inherit; text-decoration:none;">ملحق 1: ميثاق السلوك</a></li>
+<li><a href="#appendix-discipline-instructions" style="color:inherit; text-decoration:none;">ملحق 2: تعليمات الانضباط المدرسيّ</a></li>
+<!--<li><a href="#appendix-calendar" style="color:inherit; text-decoration:none;">ملحق 3: الرزنامة المدرسيّة</a></li>
+          <li><a href="#appendix-powerapps" style="color:inherit; text-decoration:none;">ملحق 4: تطبيقات PowerApps</a></li>-->
+</ul>
+</article>
+</section>
 <section class="part" id="appendix-conduct-charter">
 <div class="part-head"><span class="part-num">ملحق 1</span><h2>ميثاق السلوك</h2></div>
 <article class="sec">
@@ -1717,17 +1730,7 @@
 <a class="pdf-download-btn" download="ملحق-تعليمات-الانضباط-المدرسي-2026-2027.pdf" href="ملحق تعليمات الانضباط المدرسي 2026-2027.pdf">⬇ تحميل تعليمات الانضباط المدرسيّ (PDF)</a>
 </article>
 </section>
-<section class="part" id="appendices">
-<div class="part-head"><h2>قائمة الملحقات</h2></div>
-<article class="sec">
-<ul class="appendix-list">
-<li><a href="#appendix-conduct-charter" style="color:inherit; text-decoration:none;">ملحق 1: ميثاق السلوك</a></li>
-<li><a href="#appendix-discipline-instructions" style="color:inherit; text-decoration:none;">ملحق 2: تعليمات الانضباط المدرسيّ</a></li>
-<!--<li><a href="#appendix-calendar" style="color:inherit; text-decoration:none;">ملحق 3: الرزنامة المدرسيّة</a></li>
-          <li><a href="#appendix-powerapps" style="color:inherit; text-decoration:none;">ملحق 4: تطبيقات PowerApps</a></li>-->
-</ul>
-</article>
-</section>
+
 <p style="text-align:center; font-weight:700; color:var(--navy); margin-top:20px;">
       نشكر أعضاء الهيئة التدريسيّة على التزامهم وتعاونهم الدائم، ونتطلّع دائمًا إلى عامٍ دراسيّ جديد مثمر.
     </p>
